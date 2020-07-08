@@ -7,48 +7,44 @@
 
 Demo:  👍 [Butterfly](https://demo.jerryc.me/)  ||   🤞 [JerryC](https://jerryc.me/)
 
-Based on [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody) theme.
+一款基於[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主題
 
-## Installation
+## 安裝
 
-Stable branch [recommend]:
+在你的博客根目錄裡安裝穩定版【推薦】
 
 ```
 git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-Dev branch:
+如果想要安裝比較新的dev分支，可以
 
 ```
 git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-## Configuration
+## 應用主題
+修改hexo配置文件`_config.yml`，把主題改為`Butterfly`
 
- Set theme in the hexo work folder's root config file `_config.yml`: 
+```
+theme: butterfly
+```
 
-> theme: butterfly
+>如果你沒有pug以及stylus的渲染器，請下載安裝： npm install hexo-renderer-pug hexo-renderer-stylus --save or yarn add hexo-renderer-pug hexo-renderer-stylus
 
- If you don't have pug & stylus renderer, try this: 
+## 文檔
 
-> npm install hexo-renderer-pug hexo-renderer-stylus
+可查看[Butterfly Docs](https://demo.jerryc.me/posts/21cfbf15/)
 
-## Documentation
+你也可以加入群組
 
-Find in [Butterfly Docs](https://demo.jerryc.me/posts/21cfbf15/). it supports `zh-TW` and `zh-CN`
+[ 💬 QQ群 [推薦]](https://jq.qq.com/?_wv=1027&k=5KI3Jqb)
 
-You can also join the Chat Group.
+[ 💬 Telegram群](https://t.me/hexo_butterfly)
 
-[💬 Join QQ Group [recommend]](https://jq.qq.com/?_wv=1027&k=5KI3Jqb)
-
-[💬 Join Telegram Group](https://t.me/hexo_butterfly)
-
-
-
-## Screenshots
+## 截圖
 
 ![image](https://user-images.githubusercontent.com/16351105/58887365-1272f780-8718-11e9-9329-3292c6ba20d4.png)
-
-![](https://user-images.githubusercontent.com/16351105/58887457-3cc4b500-8718-11e9-9417-2bdea603c92e.png)
+![image](https://user-images.githubusercontent.com/16351105/58887457-3cc4b500-8718-11e9-9417-2bdea603c92e.png)
 
 ![](https://user-images.githubusercontent.com/16351105/69338594-7d03f980-0c9e-11ea-8b64-7f165e6508e2.png)
